@@ -13,9 +13,10 @@
 ;;; Racket.
 (define exe-1 "connect-four-naive.exe")
 (define args-1 "")
-(define exe-2 "C:\\Program Files\\Racket\\Racket.exe")
-(define args-2 "connectFourNaive.py")
-;;;connect-four-naive.rkt
+;;;(define exe-2 "C:\\Program Files\\Racket\\Racket.exe")
+;;;(define args-2 "connect-four-naive.rkt")
+(define exe-2 "C:\\Users\\Lee\\AppData\\Local\\Programs\\PythonCodingPack\\python.exe")
+(define args-2 "C:\\Users\\Lee\\Documents\\Fall 2021\\CSCI 4202 - Intro to AI\\ConnectFour\\ConnectFourNaive.py")
 
 ;;; (new-grid grid move player) -> (listof (listof (integer-in 0 2)))
 ;;;   grid : (listof (listof (integer-in 0 2)))

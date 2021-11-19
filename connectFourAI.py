@@ -19,7 +19,6 @@ def main():
     print("Connect Four in Python", file=sys.stderr)
 
     # This next line of code will have an intentional mistake
-    #for json in sys.stdin:  # Misinterprets json class vs object 
     for line in sys.stdin:  
         print(line, file=sys.stderr)
         precept = json.loads(line)      # This loads precept as a dict

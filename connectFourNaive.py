@@ -11,7 +11,7 @@ def valid_moves(precept):
         if col[0] == 0:
             moves.append(i)
     # This is the same as lines 10 - 12 that constructs an array 
-    # With a condition
+    # With a condition, I'll leave it as above for legibility
     #moves = [i for i, col in enumerate(grid) if col[0] == 0]
     return moves
 
@@ -19,7 +19,7 @@ def main():
     print("Connect Four in Python", file=sys.stderr)
 
     # This next line of code will have an intentional mistake
-    #for json in sys.stdin:  # Misinterprets json class vs object 
+    #for json in sys.stdin:  # Misinterprets json class vs str object 
     for line in sys.stdin:  
         print(line, file=sys.stderr)
         precept = json.loads(line)      # This loads precept as a dict
